@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "../Assets/Logo.jpg"
+import logo from "../Assets/logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,8 +35,8 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
             <img
-              src={Logo}
-              alt="Sree Sai Ganesh Towers Logo"
+              src={logo}
+              alt="Sree Sai Ganesh Towers logo"
               className="h-10 w-10 rounded-lg object-cover"
             />
             <div>
