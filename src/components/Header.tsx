@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import Logo from "../Assets/Logo.jpg";
+import logo from "../Assets/Logo.jpg"
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
